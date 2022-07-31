@@ -107,17 +107,23 @@
   color: #f0d0e6;
 }
 
+.pink-icon, .pink-icon:hover, .pink-icon:active{
+  color: #F806CC;
+
+}
+
+
 @media screen and (min-width: 800px) {
   .text-heading {
-    font-size: 4rem;
+    font-size: 3.3rem;
   }
 
   .text-subheading {
-    font-size: 2rem;
+    font-size: 1.65rem;
   }
 
   .text-paragraph {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.21rem;
   }
 }
