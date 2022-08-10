@@ -50,6 +50,16 @@
   font-size: 1.1rem;
 }
 
+.pink-link {
+  text-decoration: none;
+  color: #F806CC;
+}
+
+.pink-link:hover, .pink-link:active {
+  text-decoration: none;
+  color: #A91079;
+}
+
 /* skill section */
 .skill-div {
   background-color: #f0d0e6;
@@ -107,11 +117,9 @@
   color: #f0d0e6;
 }
 
-.pink-icon, .pink-icon:hover, .pink-icon:active, .pink-icon:visited{
+.pink-icon, .pink-icon:hover, .pink-icon:active, .pink-icon:visited {
   color: #F806CC;
-
 }
-
 
 @media screen and (min-width: 800px) {
   .text-heading {
