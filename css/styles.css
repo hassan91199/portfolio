@@ -121,7 +121,13 @@
   color: #F806CC;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 600px) {
+  .intro-div {
+    padding: 0 10% 10% 10%;
+  }
+}
+
+@media screen and (min-width: 600px) {
   .text-heading {
     font-size: 3.3rem;
   }
