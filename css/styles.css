@@ -50,7 +50,7 @@
   font-size: 1.1rem;
 }
 
-.pink-link {
+.pink-link, .pink-link:visited {
   text-decoration: none;
   color: #F806CC;
 }
@@ -121,9 +121,26 @@
   color: #F806CC;
 }
 
+/* id selectors */
+#more {
+  display: none;
+}
+
+#more-btn, #more-btn:visited, #more-btn:active, #more-btn:focus {
+  background-color: inherit;
+  color: inherit;
+  border: none;
+  display: inline;
+  text-decoration-color: #f0d0e6;
+}
+
 @media screen and (max-width: 600px) {
   .intro-div {
     padding: 0 10% 10% 10%;
+  }
+
+  .card {
+    width: 100%;
   }
 }
 
