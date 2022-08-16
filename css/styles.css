@@ -121,17 +121,19 @@
   color: #F806CC;
 }
 
-/* id selectors */
-#more {
+/* More text */
+.more {
   display: none;
 }
 
-#more-btn, #more-btn:visited, #more-btn:active, #more-btn:focus {
+/* More button */
+.more-btn, .more-btn-hover .more-btn:visited, .more-btn:active, .more-btn:focus {
   background-color: inherit;
-  color: inherit;
   border: none;
   display: inline;
-  text-decoration-color: #f0d0e6;
+  color: grey;
+  padding: 0;
+  margin-left: 4px;
 }
 
 @media screen and (max-width: 600px) {

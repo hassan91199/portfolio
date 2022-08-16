@@ -110,12 +110,12 @@
               <img src="images/projects/simon.png" class="card-img-top" alt="Simon Project Image Here">
               <div class="card-body">
                 <h5 class="card-title text-subheading">Simon Game</h5>
-                <p class="card-text text-paragraph">The site creates a series
-                  of tones and button presses <span id="dots">...</span><span id="more"> and requires a user to repeat
+                <p class="card-text text-paragraph simon-text">The site creates a series
+                  of tones<span class="dots">...</span><span class="more"> and button presses and requires a user to repeat
                     the sequence. If the user succeeds, the series becomes
                     progressively longer and more complex. Once the user fails,
-                    the game is over.</span></p>
-                <button onclick="expand()" class="text-paragraph" id="more-btn">Read More</button>
+                    the game is over.</span><button onclick="expand('simon-text')" class="more-btn">Read More</button></p>
+
                 <a href="https://hassan91199.github.io/simon-game/" class="card-btn btn btn-outline d-block mx-auto pink-btn">
                   <p class="card-text text-paragraph">Take a look</p>
                 </a>
@@ -125,7 +125,7 @@
           <div class="card-div col-md-6 position-relative">
             <div class="card m-auto" style="width: 85%;">
               <img src="images/projects/drum-kit.png" class="card-img-top" alt="Drum kit Project Image Here">
-              <div class="card-body">
+              <div id="drumkit-card-body" class="card-body">
                 <h5 class="card-title text-subheading">Drum Kit</h5>
                 <p class="card-text text-paragraph">Collection of different
                   drums to play with.</p>
@@ -136,28 +136,37 @@
             </div>
           </div>
           <div class="card-div col-md-6 position-relative">
+
             <div class="card m-auto" style="width: 85%;">
+
               <img src="images/projects/dicee.png" class="card-img-top" alt="Dicee Project Image Here">
-              <div class="card-body">
-                <h5 class="card-title text-subheading">Dicee</h5>
-                <p class="card-text text-paragraph">A fun web page that rolls
-                  the dice and resolves the disputes (if any) among people :)</p>
+
+              <div id="dice-card-body" class="card-body">
+
+                <h5 class="card-title text-subheading">Dice</h5>
+                <p class="card-text text-paragraph dice-text">A fun web page that rolls
+                  the<span class="dots">...</span><span class="more"> dice and
+                    resolves the disputes (if any) among people :)</span><button onclick="expand('dice-text')" class="more-btn">Read More</button></p>
+
                 <a href="https://hassan91199.github.io/dice/" class="card-btn btn btn-outline d-block mx-auto pink-btn">
                   <p class="card-text text-paragraph">Take a look</p>
                 </a>
+
               </div>
+
             </div>
+
           </div>
           <div class="card-div col-md-6 position-relative">
             <div class="card m-auto" style="width: 85%;">
               <img src="images/projects/tindog.png" class="card-img-top" alt="TinDog Project Image Here">
-              <div class="card-body">
+              <div id="tindog-card-body" class="card-body">
                 <h5 class="card-title text-subheading">TinDog</h5>
-                <p class="card-text text-paragraph">TinDog is a conceptual web
-                  page to find a new partner for your dog. This page also
-                  showcases important sections that are used in typical
-                  startup pages like the features, testimonials, pricing, and
-                  call for action sections.</p>
+                <p class="card-text text-paragraph tindog-text">TinDog is a conceptual web
+                  page<span class="dots">...</span><span class="more"> to find a new partner for your dog. This page also
+                    showcases important sections that are used in typical
+                    startup pages like the features, testimonials, pricing, and
+                    call for action sections.</span><button onclick="expand('tindog-text')" class="more-btn">Read More</button></p>
                 <a href="https://hassan91199.github.io/tindog/" class="card-btn btn btn-outline d-block mx-auto pink-btn">
                   <p class="card-text text-paragraph">Take a look</p>
                 </a>
@@ -193,9 +202,7 @@
 
   <!-- Bootstrap JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-  <script src="index.js">
-
-  </script>
+  <script src="index.js" charset="utf-8"></script>
 </body>
 
 </html>
