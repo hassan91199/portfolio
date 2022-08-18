@@ -65,7 +65,7 @@
         <h1 class="text-heading">Hassan</h1>
         <h1 class="text-subheading">front end developer...</h1>
         <p class="text-paragraph">and Computer Science student at
-          the <a class="pink-link" href="https://vu.edu.pk/">Virtual University of Pakistan</a>.
+          the <a class="pink-link" href="https://vu.edu.pk/" target="_blank">Virtual University of Pakistan</a>.
           I'm fond of coding and always craving to build awesome-looking and
           responsive web pages.</p>
       </div>
@@ -116,7 +116,7 @@
                     progressively longer and more complex. Once the user fails,
                     the game is over.</span><button onclick="expand('simon-text')" class="more-btn">Read More</button></p>
 
-                <a href="https://hassan91199.github.io/simon-game/" class="card-btn btn btn-outline d-block mx-auto pink-btn">
+                <a href="https://hassan91199.github.io/simon-game/" class="card-btn btn btn-outline d-block mx-auto pink-btn" target="_blank">
                   <p class="card-text text-paragraph">Take a look</p>
                 </a>
               </div>
@@ -129,7 +129,7 @@
                 <h5 class="card-title text-subheading">Drum Kit</h5>
                 <p class="card-text text-paragraph">Collection of different
                   drums to play with.</p>
-                <a href="https://hassan91199.github.io/drum-kit/" class="card-btn btn btn-outline d-block mx-auto pink-btn">
+                <a href="https://hassan91199.github.io/drum-kit/" class="card-btn btn btn-outline d-block mx-auto pink-btn" target="_blank">
                   <p class="card-text text-paragraph">Take a look</p>
                 </a>
               </div>
@@ -148,7 +148,7 @@
                   the<span class="dots">...</span><span class="more"> dice and
                     resolves the disputes (if any) among people :)</span><button onclick="expand('dice-text')" class="more-btn">Read More</button></p>
 
-                <a href="https://hassan91199.github.io/dice/" class="card-btn btn btn-outline d-block mx-auto pink-btn">
+                <a href="https://hassan91199.github.io/dice/" class="card-btn btn btn-outline d-block mx-auto pink-btn" target="_blank">
                   <p class="card-text text-paragraph">Take a look</p>
                 </a>
 
@@ -167,7 +167,7 @@
                     showcases important sections that are used in typical
                     startup pages like the features, testimonials, pricing, and
                     call for action sections.</span><button onclick="expand('tindog-text')" class="more-btn">Read More</button></p>
-                <a href="https://hassan91199.github.io/tindog/" class="card-btn btn btn-outline d-block mx-auto pink-btn">
+                <a href="https://hassan91199.github.io/tindog/" class="card-btn btn btn-outline d-block mx-auto pink-btn" target="_blank">
                   <p class="card-text text-paragraph">Take a look</p>
                 </a>
               </div>
@@ -183,11 +183,38 @@
     <div class="contact-div container-fluid">
       <div class="cfa-div container-fluid p-5 text-center">
         <h1 class="text-heading py-5">It will be a pleasure to work with you!</h1>
-        <div class="d-grid col-12 col-md-4 mx-auto">
-          <a href="#" class="btn btn-outline btn-lg rounded-pill pink-btn py-2">Come have a talk</a>
+        <div class="d-grid col-sm-10 col-md-6 col-lg-6 mx-auto">
+
+          <a href="#contact-form" id="contact-btn" class="btn btn-outline btn-lg rounded-pill pink-btn py-2 contact-btn-show" onclick="showContactForm()">Come have a talk</a>
+
         </div>
+
+        <div class="d-grid col-xsm-12 col-sm-10 col-md-8 col-lg-6 mx-auto">
+
+          <form id="contact-form" class="contact-form-hide text-paragraph" action="index.html" method="post">
+
+            <label for="first-name">First Name</label>
+            <input id="first-name" class="text-paragraph input-field" type="text" name="fName">
+
+            <label for="last-name">Last Name</label>
+            <input id="last-name" class="text-paragraph input-field" type="text" name="lName">
+
+            <label for="email">Email</label>
+            <input id="email" class="text-paragraph input-field" type="text" name="eMail">
+
+            <label for="message">Message</label>
+            <textarea name="name" rows="8" cols="10" class="text-paragraph input-field message-box"></textarea>
+
+            <button class="btn pink-btn-solid" type="button" name="button" onclick="showThankYou()">Send</button>
+
+            <span class="thank-you">Thank you for showing interest. Will get back to you as soon as possible.</span>
+
+          </form>
+
+        </div>
+
       </div>
-      <div class="socials-div container-fluid d-flex justify-content-center p-5 gap-5">
+      <div class="socials-div container-fluid d-flex justify-content-center pt-0 p-5 gap-5">
         <a href="https://www.instagram.com/yo_its_hassan/" class=""><i class="social-icons fa-brands fa-instagram fa-lg pink-icon"></i></a>
         <a href="https://www.linkedin.com/in/muhammad-hassan-abbas-3b976523b/" class=""><i class="social-icons fa-brands fa-linkedin fa-lg pink-icon"></i></a>
         <a href="https://twitter.com/_Hassanhere_" class=""><i class="fa-brands fa-twitter fa-lg pink-icon"></i></a>

@@ -117,8 +117,59 @@
   color: #f0d0e6;
 }
 
+.pink-btn-solid, .pink-btn-solid:visited, .pink-btn-solid:focus {
+  color: #2e0249;
+  border-color: #F806CC;
+  background: #F806CC;
+  height: 3rem;
+}
+
+.pink-btn-solid:hover {
+  border-color: #F806CC;
+  background-color: #F806CC;
+  color: #2e0249;
+}
+
 .pink-icon, .pink-icon:hover, .pink-icon:active, .pink-icon:visited {
   color: #F806CC;
+}
+
+.contact-btn-show {
+  display: inline-block;
+}
+
+.contact-btn-hide {
+  display: none;
+}
+
+.contact-form-show {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form-hide {
+  display: none;
+}
+
+.input-field {
+  background-color: inherit;
+  border: none;
+  outline: 1px solid;
+  border-radius: 10px;
+  outline-color: #F806CC;
+  padding: 10px;
+  height: 3rem;
+  margin-bottom: 1.75rem;
+}
+
+.message-box {
+  height: 15rem;
+}
+
+.thank-you {
+  visibility: hidden;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 /* More text */
